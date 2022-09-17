@@ -1,6 +1,6 @@
 import csv
 csv_data = []
-with open("Ecommerce Customers") as csvfile:
+with open("file_name") as csvfile:
     csvReader = csv.reader(csvfile, delimiter=',')
     for row in csvReader:
         csv_data.append(row)
